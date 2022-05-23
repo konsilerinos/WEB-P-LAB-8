@@ -1,0 +1,75 @@
+.sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Verdana";
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.loc-link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.navigation-link {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.navigation-link:hover {
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.loc-link:hover {
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.sidenav button {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 10%;
+    padding: 0px 10px;
+}
